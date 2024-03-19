@@ -16,3 +16,22 @@ Ser jo selfølgelig at det her er mykje arbeid, som sikkert vil ta mykje tid. S�
 Tenker uansett at hvis vi begynner med python notebooks så kan vi jo legge på ting etter hvert. Rapporten burde jo også bli
 skrevet litt i parallell
 
+## Setup
+
+I will describe the conda way, you could also use pip. 
+
+```bash
+conda create --name lie_theory
+conda activate lie_theory
+```
+
+Now you can activate it. When running the notebooks this is easily done by choosing the kernel in VSCODE.
+But first you have to install the packages needed.
+In terminal write.
+
+```bash
+conda install -c conda-forge manifpy
+conda install -c conda-forge ipykernel
+```
+
+This is taken from [this website](https://artivis.github.io/manif/python/index.html). We also based our code from the examples given in [the manif repo](https://github.com/artivis/manif).
