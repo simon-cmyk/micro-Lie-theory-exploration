@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/simon/Documents/Var24/Robotsyn/project/micro-Lie-theory-exploration/manim/media/videos/3Dmanifold/480p15/partial_movie_files/SphereScene/1121228674_855736469_223132457.mp4'
+file 'file:/home/simon/Documents/Var24/Robotsyn/project/micro-Lie-theory-exploration/manim/media/videos/3Dmanifold/480p15/partial_movie_files/SphereScene/3953065503_2989481433_2037572336.mp4'
+file 'file:/home/simon/Documents/Var24/Robotsyn/project/micro-Lie-theory-exploration/manim/media/videos/3Dmanifold/480p15/partial_movie_files/SphereScene/4181839849_4085705500_2867678684.mp4'
