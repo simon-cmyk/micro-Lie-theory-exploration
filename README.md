@@ -1,7 +1,7 @@
 # micro-Lie-theory-exploration
 Project for TTK4255 Robotic vision
 
-<video src="manim/media/videos/3Dmanifold/480p15/SphereScene.mp4" width="320" height="240" controls autoplay></video>
+![gif example](manim/media/videos/3Dmanifold/480p15/example.gif)
 
 
 ## Plan
