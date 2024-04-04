@@ -3,7 +3,6 @@ Project for TTK4255 Robotic vision
 
 ![gif example](manim/media/videos/3Dmanifold/480p15/example.gif)
 
-
 ## Plan
 
 Det hadde vært kult å vise alle eksemplene i paperet. 
