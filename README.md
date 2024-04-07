@@ -77,5 +77,9 @@ We also have used [Bing Copilot](https://www.google.com/url?sa=t&source=web&rct=
 * Create our own examples from the examples in the paper maybe
 * Create a blogpost-ish github pages (usikker på om det er nødvendig)
 * Outline the report in Overleaf
+* See youtube video on how to use manim
+* Watch [Lie group youtube][def]
 
 
+
+[def]: https://www.youtube.com/watch?v=nHOcoIyJj2o
