@@ -35,7 +35,7 @@ class SphereScene(ThreeDScene):
         plane.shift(1.5 * RIGHT)
         plane.rotate(PI / 2, axis=UP)
 
-        vector = Vector([0, 0.5, 1])
+        vector = Vector([0, 1.5, 0])
         vector.shift(1.5 * RIGHT)
 
         self.wait(1)
