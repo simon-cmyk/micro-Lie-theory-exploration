@@ -50,7 +50,7 @@ This is taken from [this website](https://artivis.github.io/manif/python/index.h
 In addition you would have to install matplotlib, numpy and transformations3d. This can be done by running the following command in the terminal.
 
 ```bash
-conda install -c conda-forge matplotlib numpy transformations3d
+conda install -c conda-forge matplotlib numpy transforms3d ipympl
 ```
 
 ### Working with manim
