@@ -18,12 +18,11 @@ concepts from TTK4255 Robotic Vision and later subjects we might encounter durin
 
 ![gif example](manim/media/videos/3Dmanifold/480p15/Example.gif)
 
-This project delve into the paper by [Sola](http:
-//arxiv.org/abs/1812.01537). At the core is the implementation from [manifpy](https://github.com/artivis/manif).
+This project delve into the paper by [Sola et al.](http://arxiv.org/abs/1812.01537). At the core is the implementation from [manifpy](https://github.com/artivis/manif).
 
 ## Structure
 
-We have visualized examples from manifpy (NB. not done the simulation ourselves). These can be found in ́`Localization.ipynb` and `SAM.ipynb`. We also have tried to visualize the mapping between log and exp. Both in the 3d and 2d case. This shows in `exp_and_log_map.ipynb`. Lastly we tried to show a simple use case of lie theory in Interpolating poses, `Interpolation.ipynb`. We also experimented with manim, but it was to difficult and not our main focus. This can be found in the `manim` folder. 
+We have visualized examples from manifpy (NB. already made). These can be found in ́`Localization.ipynb` and `SAM.ipynb`. We also have tried to visualize the mapping between log and exp. Both in the 3d and 2d case. This shows in `exp_and_log_map.ipynb`. Lastly we tried to show a simple use case of lie theory in Interpolating poses, `Interpolation.ipynb`. We also experimented with manim, but it was to difficult and not our main focus. This can be found in the `manim` folder. 
 
 
 
