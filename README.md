@@ -18,7 +18,7 @@ concepts from TTK4255 Robotic Vision and later subjects we might encounter durin
 
 ![gif example](manim/media/videos/3Dmanifold/480p15/example.gif)
 
-This project delve into the paper by [Sola et al.](http:
+This project delve into the paper by [Sola](http:
 //arxiv.org/abs/1812.01537). At the core is the implementation from [manifpy](https://github.com/artivis/manif).
 
 ## Structure
