@@ -16,7 +16,7 @@ Because of this, it is very useful in robotics applications such as pose state e
 want to delve deeper into the subject to explore some core concepts that help understanding both
 concepts from TTK4255 Robotic Vision and later subjects we might encounter during our studies.
 
-![gif example](manim/media/videos/3Dmanifold/480p15/example.gif)
+![gif example](manim/media/videos/3Dmanifold/480p15/Example.gif)
 
 This project delve into the paper by [Sola](http:
 //arxiv.org/abs/1812.01537). At the core is the implementation from [manifpy](https://github.com/artivis/manif).
