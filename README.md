@@ -1,21 +1,31 @@
 # micro-Lie-theory-exploration
+
 Project for TTK4255 Robotic vision
+
+## About
+
+Lie group is said to be
+
+1. Proper: Exact with rigorous calculus on nonlinear spaces.
+2. Powerful: In that it can handle uncertainties and be used for complex situations.
+3. Abstract: It unifies concepts across implementations. So 2D vs 3D, quaternions and rotation
+matrices, and so on.
+4. Beautiful :bowtie:
+
+Because of this, it is very useful in robotics applications such as pose state estimation. We therefore
+want to delve deeper into the subject to explore some core concepts that help understanding both
+concepts from TTK4255 Robotic Vision and later subjects we might encounter during our studies.
 
 ![gif example](manim/media/videos/3Dmanifold/480p15/example.gif)
 
-## Plan
+This project delve into the paper by [Sola et al.](http:
+//arxiv.org/abs/1812.01537). At the core is the implementation from [manifpy](https://github.com/artivis/manif).
 
-Det hadde vært kult å vise alle eksemplene i paperet. 
-Sola og co har allerede laga python kode `manif`, så man kunne laga litt python notebooks, og kanskje
-fått det embedda i ei nettside? Litt sann som i ein blogpost. 
-Det går ann gratis via github pages. Der kunne man også hatt ein gjennomgang av teorien.
-Referanser og linker videre. Trur det kunne vært veldig kult :bowtie:.
-Om man fikk interaktive miljø hadde det kanskje vært det beste, sann man fikk endre på ting. 
-Kanskje lage oppgaver med løsning også? 
+## Structure
 
-Ser jo selfølgelig at det her er mykje arbeid, som sikkert vil ta mykje tid. Så bare å være ærlig dersom det blir for mykje jobb.
-Tenker uansett at hvis vi begynner med python notebooks så kan vi jo legge på ting etter hvert. Rapporten burde jo også bli
-skrevet litt i parallell
+We have visualized examples from manifpy (NB. not done the simulation ourselves). These can be found in ́`Localization.ipynb` and `SAM.ipynb`. We also have tried to visualize the mapping between log and exp. Both in the 3d and 2d case. This shows in `exp_and_log_map.ipynb`. Lastly we tried to show a simple use case of lie theory in Interpolating poses, `Interpolation.ipynb`. We also experimented with manim, but it was to difficult and not our main focus. This can be found in the `manim` folder. 
+
+
 
 ## Setup
 
@@ -36,19 +46,12 @@ conda install -c conda-forge ipykernel
 conda install -c conda-forge manim
 ```
 
-
 This is taken from [this website](https://artivis.github.io/manif/python/index.html). We also based our code from the examples given in [the manif repo](https://github.com/artivis/manif).
 
-TODO: I want to test if one can create a requirements.txt
+In addition you would have to install matplotlib, numpy and transformations3d. This can be done by running the following command in the terminal.
 
 ```bash
-conda create --name lie_theory --file requirements.txt
-```
-
-from the list created by
-
-```bash
-conda list -e > requirements.txt
+conda install -c conda-forge matplotlib numpy transformations3d
 ```
 
 ### Working with manim
@@ -68,18 +71,4 @@ manim -pql scene.py CreateCircle
 | -------- | -------- | -------- |
 | [simonlb\@stud.ntnu.no](mailto:simonlb@stud.ntnu.no)  | [emiljohn\@stud.ntnu.no](mailto:emiljohn@stud.ntnu.no)   | [oscarer\@stud.ntnu.no](mailto:oscarer@stud.ntnu.no)   |
 
-We also have used [Bing Copilot](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.microsoft.com/en-us/bing%3Fform%3DMA13FV&ved=2ahUKEwidl6qj_pGFAxWeHBAIHSBwDdcQFnoECAYQAQ&usg=AOvVaw1YqOupLbk8IJ4MfgzJA_wk) in this project seeing that this is the preferred LLM based on NTNUs recommendations. It has created some scripts for visualization and also helped us debugging and understand the concepts in the [paper](https://arxiv.org/pdf/1812.01537.pdf) which we based our project on.
-
-### TODO list
-
-* Add some animations showing the concepts from the paper
-* Visualize the examples from manifpy
-* Create our own examples from the examples in the paper maybe
-* Create a blogpost-ish github pages (usikker på om det er nødvendig)
-* Outline the report in Overleaf
-* See youtube video on how to use manim
-* Watch [Lie group youtube][def]
-
-
-
-[def]: https://www.youtube.com/watch?v=nHOcoIyJj2o
+We also have used [Bing Copilot](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.microsoft.com/en-us/bing%3Fform%3DMA13FV&ved=2ahUKEwidl6qj_pGFAxWeHBAIHSBwDdcQFnoECAYQAQ&usg=AOvVaw1YqOupLbk8IJ4MfgzJA_wk) and ChatGPT in this project. It has helped in creating some scripts for visualization and also helped us debugging and understand the concepts in the [paper](https://arxiv.org/pdf/1812.01537.pdf) which we based our project on.
