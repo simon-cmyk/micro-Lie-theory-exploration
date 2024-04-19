@@ -64,6 +64,16 @@ cd manim
 manim -pql scene.py CreateCircle
 ```
 
+### Figures from code
+
+| $s^1$ | $s^3$ |
+|-------|-------|
+| <img src="examples/ex1_cropped.jpg" width="250" height="250"> | <img src="examples/ex2_1.png" width="250" height="250"> |
+| Localization | Smoothing and mapping |
+| <img src="examples/localization_output.png" width="250" height="250"> | <img src="examples/sam_output.png" width="250" height="250"> |
+| SO3 interpolation | Error |
+| <img src="examples/or4.png" width="250" height="250"> | <img src="examples/or_err.png" width="250" height="250"> |
+
 ### Credits
 
 | Simon | Emil | Oscar |
